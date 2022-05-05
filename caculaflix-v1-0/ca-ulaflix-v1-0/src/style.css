@@ -1,33 +1,23 @@
 body {
   font-family: "Roboto Mono", monospace;
-  text-align: center;
-  background-image: url("https://i.imgur.com/ELkz7wi.png");
-  background-color: #000000;
-  background-size: cover;
-  background-position: center top;
+  min-height: 400px;
+  background-image: url("");
+  background-color: #5353AB;
+  background-size: 100vh;
+  background-position: center bottom;
   background-repeat: no-repeat;
 }
 
 .container {
   text-align: center;
   padding: 20px;
-}
-.containerbg {
-  /* Background block */
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  left: 25%;
-  background-position: center bottom;
-  background: rgba(0, 0, 0, 0.75);
-  border-radius: 50px;
-  opacity: 0.6;
-  display: block;
+  height: 100vh;
 }
 
 .page-title {
   color: #ffffff;
-  margin: 0 0 5px;
+  margin:5px;
+  padding:24px;
 }
 
 .page-subtitle {
@@ -35,49 +25,27 @@ body {
   margin-top: 5px;
 }
 
-#listaFilmes img {
-  margin: 10px;
-  max-height: 250px;
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 25px;
 }
 
-.form-wrapper {
-  margin: 0px;
+label {
+  color: white;
 }
 
-.form-wrapper input {
-  display: block;
-  margin: 0 auto;
-  border: 0px;
-  padding: 10px 25px;
+button {
+  margin-top: 32px;
+  padding: 4px 8px;
   border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.form-wrapper button {
-  border: 0;
-  color: #ffffff;
-  background: #da1e26;
-  font-weight: bold;
-  padding: 15px 20px;
-  font-size: 16px;
-  border-radius: 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.form-wrapper button:hover {
-  opacity: 0.8;
   background: #ffffff;
-  color: #da1e26;
 }
-#listaFilmesNomes {
-  text-align: center;
-  font-size: 42px;
-  color: #eaceff;
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
 }
-p {
-  text-align: center;
-  font-size: 42px;
-  color: #eaceff;
+
 }
